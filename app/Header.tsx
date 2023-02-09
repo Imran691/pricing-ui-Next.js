@@ -14,7 +14,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 export default function Header() {
   return <ChakraProvider>
-    <Box textAlign={{base:"left", md:"left", lg:"center"}} bg="#6B46C1" pt="90px" pb="250px" color="White">
+    <Box textAlign={{base:"left", md:"left", lg:"center"}} bg="#6B46C1" pt="90px" pb="250px" color="White" pl={"15px"}>
     <Heading pb="10px">Simple pricing for your business</Heading>
     <Text>Plans that are carefully crafted to suit your business</Text>
     </Box>
